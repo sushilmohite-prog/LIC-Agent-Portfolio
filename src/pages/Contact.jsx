@@ -1,5 +1,6 @@
 import React from 'react';
 import ContactForm from '../components/ContactForm';
+import profileImage from '../assets/profile.jpeg'; // Adjust the path as necessary
 
 const Contact = () => {
   return (
@@ -25,9 +26,13 @@ const Contact = () => {
               
               {/* Agent Details */}
               <div className="text-center mb-6">
-                <div className="w-24 h-24 bg-lic-yellow rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-3xl">👨‍💼</span>
-                </div>
+                  <div className="w-32 h-32 bg-lic-yellow rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
+                    <img 
+                      src={profileImage} 
+                      alt="श्री भालचंद्र मोहिते - LIC Agent" 
+                      className="w-full h-full object-cover rounded-full"
+                    />
+                  </div>
                 <h3 className="text-lg font-bold text-lic-blue mb-1">श्री भालचंद्र मोहिते </h3>
                 <p className="text-gray-600 font-marathi">LIC Authorized Agent</p>
                 <p className="text-sm text-gray-500">Agent Code: 5115968</p>

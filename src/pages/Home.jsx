@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { licPlans } from '../data/licPlans';
+import profileImage from '../assets/profile.jpeg';
 
 const Home = () => {
   const featuredPlans = licPlans.slice(0, 3);
@@ -30,8 +31,12 @@ const Home = () => {
             <div className="lg:text-right">
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
                 <div className="text-center">
-                  <div className="w-32 h-32 bg-lic-yellow rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-4xl">👨‍💼</span>
+                  <div className="w-32 h-32 bg-lic-yellow rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
+                    <img 
+                      src={profileImage} 
+                      alt="श्री भालचंद्र मोहिते - LIC Agent" 
+                      className="w-full h-full object-cover rounded-full"
+                    />
                   </div>
                   <h3 className="text-2xl font-bold mb-2">श्री भालचंद्र मोहिते </h3>
                   <p className="text-lg font-marathi mb-2">LIC Authorized Agent</p>
