@@ -17,7 +17,7 @@ const Home = () => {
                 तुमच्या कुटुंबाची आर्थिक सुरक्षा आमची जबाबदारी
               </h1>
               <p className="text-xl mb-8 text-gray-200 font-marathi">
-                25+ वर्षांचा अनुभव असलेले LIC सल्लागार. आम्ही तुमच्या गरजेनुसार योग्य विमा योजना सुचवतो.
+                14+ वर्षांचा अनुभव असलेले LIC सल्लागार. आम्ही तुमच्या गरजेनुसार योग्य विमा योजना सुचवतो.
               </p>
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                 <Link to="/calculator" className="btn-secondary text-center">
@@ -40,14 +40,14 @@ const Home = () => {
                   </div>
                   <h3 className="text-2xl font-bold mb-2">श्री भालचंद्र मोहिते </h3>
                   <p className="text-lg font-marathi mb-2">LIC Authorized Agent</p>
-                  <p className="text-gray-200 font-marathi">25+ वर्षांचा अनुभव</p>
+                  <p className="text-gray-200 font-marathi">14+ वर्षांचा अनुभव</p>
                   <div className="mt-4 flex justify-center space-x-4">
                     <div className="text-center">
-                      <div className="text-2xl font-bold">1000+</div>
+                      <div className="text-2xl font-bold">500+</div>
                       <div className="text-sm text-gray-200 font-marathi">समाधानी ग्राहक</div>
                     </div>
                     <div className="text-center">
-                      <div className="text-2xl font-bold">500+</div>
+                      <div className="text-2xl font-bold">250+</div>
                       <div className="text-sm text-gray-200 font-marathi">Active Policies</div>
                     </div>
                   </div>
